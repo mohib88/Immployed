@@ -1,0 +1,87 @@
+body{
+    background-color: #F9FFFA;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Text Me One', sans-serif;
+}
+
+nav > button {
+    color: #F9FFFA;
+    position: relative;
+    top: 0.3em;
+}
+
+.navbar-brand > img {
+    height: 1em;
+    padding-right: 0.2em;
+    position: relative;
+    bottom: 0.1em;
+}
+
+.navbar#employeeNav {
+    font-family: 'Text Me One', sans-serif;
+    background-color: #277491;
+    color: #F9FFFA;
+}
+
+.navbar#employeeNav > a {
+    padding: 0.1em 0em 0.1em 0em;
+    font-size: 35pt;
+}
+
+li.nav-item > a{
+    color: #F9FFFA;
+    font-size: 20pt;
+}
+
+div.dropdown-menu{
+    background-color: #62A2BA;
+}
+
+div.dropdown-menu > a{
+    color: #F9FFFA;
+    font-size: 18pt;
+}
+
+div.dropdown-menu > a:hover{
+    cursor:pointer;
+}
+
+.header > *{
+    font-size: 35pt;
+    margin: auto;
+}
+
+.subheader {
+    background-color: #62A2BA;
+    color: #F9FFFA;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.subheader > *{
+    font-size: 22pt;
+    margin: auto;
+}
+
+/* Footer menu */
+.page-footer {
+    padding: 2em;
+    background-color: #277491;
+    color: white;
+    margin-top: 6em;
+}
+
+#twitter-icon, #fb-icon {
+    width: 4em;
+}
+
+.twitter-hashtag-button {
+    size: 12em;
+}
+
+#footer-title {
+    font-weight: bold;
+}
